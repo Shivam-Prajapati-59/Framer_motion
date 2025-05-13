@@ -1,11 +1,13 @@
-import { ReactLenis } from "@studio-freight/react-lenis";
-import CardwithScroll from "./components/scroll/Card";
+// import { ReactLenis } from "@studio-freight/react-lenis";
+// import CardwithScroll from "./components/scroll/Card";
+import DemoTextGradient from "./components/TextGradientOpacity/DemoTextGradient";
 
 function App() {
   return (
-    <ReactLenis root>
-      <CardwithScroll />
-    </ReactLenis>
+    <>
+      {/* <CardwithScroll /> */}
+      <DemoTextGradient />
+    </>
   );
 }
 
